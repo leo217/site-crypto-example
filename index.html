@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>.: The Crypto App .:</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Busca e alarme-->
+    <div class="container">
+        <div class="row mt-2 mb-3">
+            <div class="col-12 text-end">
+                <i class="fa-solid fa-magnifying-glass fa-2x mx-2"></i>
+
+                <i class="fa-regular fa-bell fa-2x mx-1"></i>
+            </div>
+        </div>
+    </div>
+    <!--Saldo-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <div id="balance">
+                        <div>
+                            <img src="ilustracao.png" id="btc1">
+                            <p>Saldo</p>
+                            <h1>$ 15.830,27</h1>
+                            <p class="mt-5" id="lucro">
+                                <i class="fa-solid fa-arrow-trend-up" style="color: #419929;"></i> $ 1.830,00 de lucro
+                            </p>
+                        </div>
+                        <div>
+                            <img src="ilustracao2.png" id="btc2">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--top moedas-->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-8">
+                <h4>Top ativos</h4>
+            </div>
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="moeda">
+                    <i class="fa-brands fa-bitcoin fa-2x"></i><span class="tituloMoeda">Bitcoin</span>
+                    <h4 class="valor">$ 45.898,16</h4>
+                    <p class="porcentagem">24,55% <i class="fa-solid fa-caret-up"></i></p>
+                    <img src="chart.png" width="100%">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="moeda">
+                    <i class="fa-brands fa-ethereum fa-2x"></i><span class="tituloMoeda">Ethereum</span>
+                    <h4 class="valor">$ 8.898,16</h4>
+                    <p class="porcentagem">2,55% <i class="fa-solid fa-caret-up"></i></p>
+                    <img src="chart.png" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Notícias-->
+    <div class="container mt-3 mb-5">
+        <div class="row">
+            <div class="col-8">
+                <h4>Notícias</h4>
+            </div>
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
+            </div>
+        </div>
+        <div class="row noticias">
+            <div class="col-3">
+                <img src="noticias.png" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Analysts project 32% upside for Coinbase stock despite... </p>
+            </div>
+        </div>
+    </div>
+    <!--rodapé com menu de opções-->
+    <div class="container-fluid" id="footer">
+        <div class="row pt-3">
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-house itemMenu"></i>
+                    <p class="menu">Home</p>
+                </div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-chart-simple itemMenu"></i>
+                    <p class="menu">Market</p>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div id="plus">+</div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-chart-pie itemMenu"></i>
+                    <p class="menu">Portifólio</p>
+                </div>
+                
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-gear itemMenu"></i>
+                    <p class="menu">Settings</p>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
